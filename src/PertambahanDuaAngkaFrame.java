@@ -90,6 +90,12 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
             }
         });
 
+        hasilField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hasilFieldActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -196,6 +202,10 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
     private void angka1FieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_angka1FieldFocusGained
         // TODO add your handling code here:
     }//GEN-LAST:event_angka1FieldFocusGained
+
+    private void hasilFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hasilFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hasilFieldActionPerformed
 
     /**
      * @param args the command line arguments

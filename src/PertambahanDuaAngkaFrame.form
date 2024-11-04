@@ -150,6 +150,9 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="hasilField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hasilFieldActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
